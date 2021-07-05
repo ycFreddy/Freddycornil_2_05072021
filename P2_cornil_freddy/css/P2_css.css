@@ -290,7 +290,7 @@ article:nth-of-type(2) {
 
 .image, .imageright {
   display: block;
-  padding: 4px;
+  padding: 5px;
   margin: 0.5em;
   border-radius: 10px;
   color: black;
@@ -308,13 +308,16 @@ article:nth-of-type(2) {
   flex-direction: column;
   text-align: left;
   border-radius: 5px;
+  height: 75px;
 }
 
 .imager {
   display: flex;
   flex-direction: column;  
   text-align: left;
+  border-radius: 5px;
   margin-left : 5px;
+  width: 215px;
 }
 
 .image img {  
