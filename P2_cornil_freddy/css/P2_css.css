@@ -28,7 +28,7 @@ section {
   margin-left: -0.2em;
 }
 
-nav{
+.menunav{
   display: flex;  
   justify-content: flex-end;
   width: 100%;  
@@ -36,16 +36,16 @@ nav{
   top: 0px;
 }
 
-nav ul{
+.menunav ul{
   list-style-type: none;
   display: flex;
 }
 
-nav ul li{  
+.menunav ul li{  
   text-align: center;
 }
 
-nav a{
+.menunav a{
   display: block;
   font-size: 14px;
   text-decoration: none;
@@ -54,12 +54,12 @@ nav a{
   padding: 3em;
 }
 
-nav a:hover{  
+.menunav a:hover{  
   border-top: 2px solid #0065FC;
   color : #0065FC;
 }
 
-li:nth-of-type(3) a {  
+.menunav li:nth-of-type(3) a {  
   color : #0065FC;  
   font-weight: bold;
 }
@@ -500,8 +500,58 @@ article:nth-of-type(2) {
   font-size: 16px;
 }
 
-footer {
-  margin-top: 2em;
+.footer {  
   background-color: #F2F2F2;
   height: 200px;
+  width: 100%;
+}
+
+.footermenu {
+  display: flex;
+  margin-top: 4em;  
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #F2F2F2;
+}
+
+.footerblock {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 100%;
+}
+
+.footertitre {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  font-weight:bold;
+  background-color: #F2F2F2;
+}
+
+.footernav {
+  margin-bottom: 2em;
+}
+
+.footernav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footernav ul li{
+  text-align: left;
+  background-color: #F2F2F2;
+}
+
+.footernav a{
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  background-color: #F2F2F2;
+  margin-bottom: 1em;
+}
+
+.footernav a:hover{    
+  color : #0065FC;
 }
