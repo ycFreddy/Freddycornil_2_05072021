@@ -370,7 +370,6 @@ article:nth-of-type(2) {
 
 #activites {
   display : flex;
-  width: auto;
 }
 
 .actilabel {
@@ -385,19 +384,15 @@ article:nth-of-type(2) {
 .blocactivites {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 100%;
+  justify-content: space-between;
   margin-right: 0.5em;
 }
 
-.blocactivitesimagegauche {  
-  flex: auto;
-}
 
 .blocactivitesimagedroite {    
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .vignette {
@@ -495,7 +490,6 @@ article:nth-of-type(2) {
 
 .footer {  
   background-color: #F2F2F2;
-  height: 200px;
   width: 100%;
 }
 
