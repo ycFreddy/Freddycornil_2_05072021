@@ -233,7 +233,7 @@ input[type=submit] {
   border-color: #f2f2f2;
 }
 
-article {
+.articlehebergement {
   display: flex;
   padding : 1em;
   border-style : solid;
@@ -382,17 +382,19 @@ article:nth-of-type(2) {
   font-weight: bolder;
 }
 
-.bloc{
+.blocactivites {
   display: flex;
   width: auto;
   flex-wrap: wrap;
+  max-width: fit-content;
 }
 
-.img:nth-of-type(1) {  
+.blocactivitesimagegauche {  
   flex: auto;
+  max-width: fit-content;
 }
 
-.imp:nth-of-type(2) {    
+.blocactivitesimagedroite {    
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -401,62 +403,59 @@ article:nth-of-type(2) {
   display: flex; 
   text-align: left;  
   flex-direction: column;
-  justify-content: stretch;
 }
 
 .imp {
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: stretch;
 }
 
 .vignette {
-  display: block;
   margin-right: 1em;
   margin-top: 1em;
   border-radius: 10px;
   color: black;
   background-color: white;  
   box-shadow: 1px 2px 10px #e4e2e2, -1px -1px #e4e2e2;
-  width: 300px;
+  width: 300px;  
+  max-height: fit-content;
 }
 
 .vignette a {
-  display: block;
   text-decoration: none;
   color: black;  
-  height: 55px;
+}
+
+.vignette a:hover {
+  background-color: #F2F2F2;
 }
 
 .vsize1 {
   height: 440px;  
   border-radius: 10px 10px 10px 10px;
-  margin-bottom: 4px;
 }
 
 .vsize2 {
-  height: 240px;
+  height: 230px;
   border-radius: 10px 10px 10px 10px;
-  margin-bottom: 4px;
+  margin-bottom: 45px;
 }
 
 .vsize3 {  
   height: 165px;
   border-radius: 10px 10px 10px 10px;
-  margin-bottom: 4px;
 }
 
 .vsize4 {  
   height: 195px;
-  border-radius: 10px 10px 10px 10px;  
-  margin-bottom: 4px;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 40px;
 }
 
 .vsize5 {  
   height: 205px;
   border-radius: 10px 10px 10px 10px;
-  margin-bottom: 4px;
 }
 
 .vsize1 img {    
@@ -502,6 +501,7 @@ article:nth-of-type(2) {
 }
 
 footer {
+  margin-top: 2em;
   background-color: #F2F2F2;
   height: 200px;
 }
