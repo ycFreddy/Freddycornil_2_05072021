@@ -253,11 +253,13 @@ input[type=submit] {
 article:nth-of-type(1) {  
   flex: auto;  
   flex-wrap: wrap;
-  margin-right: 45px;;
+  margin-right: 45px;
+  justify-content: space-between;
 }
 
 article:nth-of-type(2) {    
   flex-direction: column;
+  min-width: 25%;
 }
 
 
@@ -276,8 +278,10 @@ article:nth-of-type(2) {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top: 1em;
   text-align: left;  
   font-weight: bold;
+  font-size: 0.8em;
   background-color: transparent;
 }
 
@@ -315,6 +319,7 @@ article:nth-of-type(2) {
   text-align: left;
   border-radius: 5px;
   height: 75px;
+  width: 33%;
 }
 
 .imager {
@@ -323,7 +328,6 @@ article:nth-of-type(2) {
   text-align: left;
   border-radius: 5px;
   margin-left : 5px;
-  width: 215px;
 }
 
 .image img {  
@@ -362,8 +366,7 @@ article:nth-of-type(2) {
 }
 
 .imageright {
-  display: flex;  
-  width: 345px;
+  display: flex;
   text-align: left;
 }
 
