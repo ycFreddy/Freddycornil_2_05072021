@@ -24,6 +24,7 @@ section {
 
 .nav-logo {
   display: flex;
+  position: relative;
   height: 45px;
   margin-left: -0.2em;
 }
@@ -63,6 +64,11 @@ section {
   color : #0065FC;  
   font-weight: bold;
 }
+
+.inscrire {
+  order: 1;
+}
+
 
 #titre {
   display: flex;
@@ -261,7 +267,7 @@ article:nth-of-type(2) {
   flex-direction: row;
   width: 100%;
   text-align: left;  
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: bold;
   background-color: transparent;
 }
@@ -369,7 +375,7 @@ article:nth-of-type(2) {
 }
 
 #activites {
-  display : flex;
+  display: flex;  
 }
 
 .actilabel {
@@ -377,32 +383,35 @@ article:nth-of-type(2) {
   display: flex;
   width: 100%;
   text-align: left;  
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: bolder;
 }
 
-.blocactivites {
+.blocactivites {  
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-between;
-  margin-right: 0.5em;
 }
 
+.blocactivitesimagegauche {      
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .blocactivitesimagedroite {    
-  flex-direction: column;
+  display: flex;  
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .vignette {
+  display: flex;
   margin-right: 1em;
   margin-top: 1em;
   border-radius: 10px;
   color: black;
   background-color: white;  
   box-shadow: 1px 2px 10px #e4e2e2, -1px -1px #e4e2e2;
-  width: 300px;  
 }
 
 .vignette a {
@@ -425,57 +434,53 @@ article:nth-of-type(2) {
 
 .vsize2 {
   height: 230px;
-  border-radius: 10px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
-.vsize3 {  
+.vsize3 {
   height: 165px;
-  border-radius: 10px;
 }
 
-.vsize4 {  
+.vsize4 {
   height: 195px;
-  border-radius: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
-.vsize5 {  
+.vsize5 {
   height: 205px;
-  border-radius: 10px;
 }
 
-.vsize1 img {    
-  width: 300px;
+.vsize1 img {
+  width: 100%;
   height: 390px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
 
-.vsize2 img {  
-  height: 178px;
-  width: 300px;
+.vsize2 img {
+  width: 100%;
+  height: 180px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
 
-.vsize3 img {  
+.vsize3 img {
+  width: 100%;
   height: 115px;
-  width: 300px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
 
-.vsize4 img {  
-  height: 140px;
-  width: 300px;
+.vsize4 img {
+  width: 100%;
+  height: 145px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
 
-.vsize5 img {  
+.vsize5 img {
+  width: 100%;
   height: 155px;
-  width: 300px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
@@ -484,8 +489,7 @@ article:nth-of-type(2) {
   margin-left: 20px;
   margin-top: 15px;
   font-weight: bold;
-  font-size: 16px;
-  max-height: fit-content;
+  font-size: 1vw;
 }
 
 .footer {  
@@ -532,7 +536,7 @@ article:nth-of-type(2) {
 
 .footernav a{
   display: block;
-  font-size: 14px;
+  font-size: 0.9em;
   text-decoration: none;
   color: black;
   background-color: #F2F2F2;
