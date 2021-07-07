@@ -329,7 +329,6 @@ article:nth-of-type(2) {
   flex-direction: column;
   text-align: left;
   border-radius: 5px;
-  height: 75px;
 }
 
 .imager {
