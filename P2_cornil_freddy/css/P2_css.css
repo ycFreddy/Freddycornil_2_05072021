@@ -252,7 +252,7 @@ input[type=submit] {
 .articlehebergement:nth-of-type(1) {  
   flex: auto;  
   flex-wrap: wrap;
-  margin-right: 45px;
+  margin-right: 40px;
   justify-content: space-between;
 }
 
@@ -311,7 +311,7 @@ input[type=submit] {
 .imageright {
   display: block;
   padding: 5px;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
   border-radius: 15px;
   color: black;
   background-color: white;  
