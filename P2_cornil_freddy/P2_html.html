@@ -1,7 +1,8 @@
 <!doctype html>
-<html>
-    <head>
+<html lang="fr">
+    <head>        
         <meta charset="utf-8">
+        <title>OpenClasrooms - Projet 1 : Reservia</title>     
         <link rel="stylesheet" href="css/p2_css.css">        
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,7 @@
     <body>
         <main id="container">
             <section id="navigation">            
-                <div class="menulogo"><img src="images/logo.png"></div>
+                <h1 class="menulogo"><img src="images/logo.png" alt="Accueil - Reservia"></h1>
                 <div class="inscription"><a class="inscrire" href="#inscrire">S'inscrire</a></div>
                 <div class="menunav">
                     <a class="liennav" href="#hebergement">Hébergements</a><a class="liennav" href="#activites">Activités</a>
@@ -23,25 +24,24 @@
                 <form id="form">
                         <div class="label"><i class="fas fa-map-marker-alt"></i></div>
                         <input type="search" id="search" placeholder="Marseille, France">
-                        <input type="submit" value="Rechercher">
+                        <button id="boutonrechercher"><i class="fas fa-search"></i></button>
                 </form>          
             </section>
             <section id="filtre">
                 <div class="titref">Filtres</div>
-                <div class="bfiltre"><i class="ico fas fa-money-bill-wave"></i>Economique</div>
-                <div class="bfiltre"><i class="ico fas fa-child"></i>Familial</div>
-                <div class="bfiltre"><i class="ico fas fa-heart"></i>Romantique</div>
-                <div class="bfiltre"><i class="ico fas fa-dog"></i>Animaux autorisés</div>
+                <div class="bfiltre"><i class="ico fas fa-money-bill-wave"></i><p>Economique</p></div>
+                <div class="bfiltre"><i class="ico fas fa-child"></i><p>Familial</p></div>
+                <div class="bfiltre"><i class="ico fas fa-heart"></i><p>Romantique</p></div>
+                <div class="bfiltre"><i class="ico fas fa-dog"></i><p>Animaux autorisés</p></div>
             </section>
             <section id="info">
-                <div class="info-ico"><i class="fas fa-info"></i></div>
-                <h3>Plus de 500 logements sont disponibles dans cette ville</h3>
+                <div class="infotip"><i class="info-ico fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
             </section>
-            <section id="hebergement">
-                <article class="articlehebergement">                    
-                    <div class="tlabel">Hébergements à Marseille</div>                    
+            <section id="hebergement">                
+                <article class="articlehebergement">                                 
+                    <h1 class="tlabel">Hébergements à Marseille</h1>
                     <a class="image" href="#">
-                        <img src="images/hebergements/image_1.jpg">
+                        <img src="images/hebergements/image_1.jpg" alt="Auberge le Cannebière">
                         <div class="imagel">
                             <div class="nom">Auberge le Cannebière</div>
                             <div class="prix">Nuit à partir de 25€</div>
@@ -55,7 +55,7 @@
                         </div>
                     </a>
                     <a class="image" href="#">
-                        <img src="images/hebergements/image_2.jpg">
+                        <img src="images/hebergements/image_2.jpg" alt="Hôtel du port">
                         <div class="imagel">
                             <div class="nom">Hôtel du port</div>
                             <div class="prix">Nuit à partir de 52€</div>
@@ -69,7 +69,7 @@
                         </div>
                     </a>
                     <a class="image" href="#">
-                        <img src="images/hebergements/image_3.jpg">
+                        <img src="images/hebergements/image_3.jpg" alt="Hôtel Les Mouettes">
                             <div class="imagel">
                             <div class="nom">Hôtel Les Mouettes</div>
                             <div class="prix">Nuit à partir de 76€</div>
@@ -83,7 +83,7 @@
                         </div>
                     </a>
                     <a class="image" href="#">                    
-                        <img src="images/hebergements/image_4.jpg">
+                        <img src="images/hebergements/image_4.jpg" alt="Hôtel de la Mer">
                         <div class="imagel">
                             <div class="nom">Hôtel de la Mer</div>
                             <div class="prix">Nuit à partir de 46€</div>
@@ -97,7 +97,7 @@
                         </div>
                     </a>
                     <a class="image" href="#">                    
-                        <img src="images/hebergements/image_5.jpg">
+                        <img src="images/hebergements/image_5.jpg" alt="Auberge Le Panier">
                         <div class="imagel">
                             <div class="nom">Auberge Le Panier</div>
                             <div class="prix">Nuit à partir de 23€</div>
@@ -111,7 +111,7 @@
                         </div>
                     </a>
                     <a class="image" href="#">
-                        <img src="images/hebergements/image_6.jpg">
+                        <img src="images/hebergements/image_6.jpg" alt="Hôtel chez Amina">
                         <div class="imagel">
                             <div class="nom">Hôtel chez Amina</div>
                             <div class="prix">Nuit à partir de 96€</div>
@@ -126,13 +126,13 @@
                     </a>
                     <div class="ap">Afficher plus</div>
                 </article>
-                <article class="articlehebergement">
+                <aside class="articlehebergement">
                     <div class="pop">
                         <div class="tlabel">Les plus populaires</div>
                         <div class="tlabel-ico"><i class=" fas fa-chart-line"></i></div>
                     </div>
                     <a class="imageright" href="#">
-                        <img src="images/hebergements/image_7.jpg">
+                        <img src="images/hebergements/image_7.jpg" alt="Hôtel Le soleil du matin">
                         <div class="imager">
                             <div class="nom">Hôtel Le soleil du matin</div>
                             <div class="prix">Nuit à partir de 128€</div>
@@ -146,7 +146,7 @@
                         </div>
                     </a>
                     <a class="imageright" href="#">
-                        <img src="images/hebergements/image_8.jpg">
+                        <img src="images/hebergements/image_8.jpg" alt="Au coeur de l'eau Chambre d'hôtes">
                         <div class="imager">
                             <div class="nom">Au coeur de l'eau Chambre d'hôtes</div>
                             <div class="prix">Nuit à partir de 71€</div>
@@ -160,7 +160,7 @@
                         </div>
                     </a>
                     <a class="imageright" href="#">
-                        <img src="images/hebergements/image_9.jpg">
+                        <img src="images/hebergements/image_9.jpg" alt="Hôtel Tout bleu et Blanc">
                         <div class="imager">
                             <div class="nom">Hôtel Tout bleu et Blanc</div>
                             <div class="prix">Nuit à partir de 68€</div>
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                     </a>
-                </article>
+                </aside>
             </section>                  
             <div class="actilabel">Activités à Marseille</div>
             <section id="activites">  
@@ -181,7 +181,7 @@
                     <div class="blocactivitesimagegauche">
                         <div class="vignette vsize1">
                             <a href="#" class="vignettelien">
-                                <img src="images/activites/image_1.jpg">
+                                <img src="images/activites/image_1.jpg" alt="Vieux Port">
                                 <div class="vignettelabel">Vieux Port</div>
                             </a>
                         </div>
@@ -191,13 +191,13 @@
                     <div class="blocactivitesimagedroite">
                         <div class="vignette vsize2">
                             <a href="#" class="vignettelien">
-                                <img src="images/activites/image_2.jpg">
+                                <img src="images/activites/image_2.jpg" alt="Fort de Pomègues">
                                 <div class="vignettelabel">Fort de Pomègues</div>
                             </a>
                         </div>                        
                         <div class="vignette vsize3">
                             <a href="#" class="vignettelien">        
-                                <img src="images/activites/image_3.jpg">
+                                <img src="images/activites/image_3.jpg" alt="Iles du Frioul">
                                 <div class="vignettelabel">Iles du Frioul</div>                        
                             </a>
                         </div>
@@ -207,7 +207,7 @@
                     <div class="blocactivitesimagegauche">
                         <div class="vignette vsize1">
                             <a href="#" class="vignettelien">
-                                <img src="images/activites/image_4.jpg">
+                                <img src="images/activites/image_4.jpg" alt="Parc National des Calanques">
                                 <div class="vignettelabel">Parc National des Calanques</div>
                             </a>
                         </div>
@@ -217,13 +217,13 @@
                     <div class="blocactivitesimagedroite">                    
                         <div class="vignette vsize4">
                             <a href="#" class="vignettelien">
-                                <img src="images/activites/image_5.jpg">
-                                <div class="vignettelabel">Notre-Dame-de-la-Garde</div>                        
+                                <img src="images/activites/image_5.jpg" alt="Notre-Dame-de-la-Garde">
+                                <div class="vignettelabel">Notre-Dame-de-la-Garde</div>
                             </a>
                         </div>                        
                         <div class="vignette vsize5">
                             <a href="#" class="vignettelien">
-                                <img src="images/activites/image_6.jpg">
+                                <img src="images/activites/image_6.jpg" alt="Parc Longchamp">
                                 <div class="vignettelabel">Parc Longchamp</div>
                             </a>
                         </div>
