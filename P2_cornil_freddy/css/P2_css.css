@@ -32,6 +32,14 @@ section {
   height: 55px;
 }
 
+.menunav {
+  order: 2;
+}
+
+.inscription {
+  order: 3;
+}
+
 .menunav a {
   font-size: 14px;
   text-decoration: none;
@@ -43,7 +51,7 @@ section {
 
 .menunav a:hover{  
   border-top: 2px solid #0065FC;
-  color : #0065FC;
+  color : #0065FC;  
 }
 
 .inscrire{
@@ -51,6 +59,7 @@ section {
   color : #0065FC;  
   font-weight: bold;
   padding: 3em;
+  order: 2;
 }
 
 #titre {
@@ -554,30 +563,47 @@ input[type=submit] {
     margin-left: 10px;
   }  
 
-  #navigation {
-    flex-direction: column;    
-  }
 
+  #navigation {    
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .menulogo {    
+    height: unset;    
+    width: 30%;
+  }
+  
   .menunav {
     display: flex;
-flex-wrap: wrap;
+    order: 3;
+    width: 100%;
   }
 
-  .menunav li:nth-of-type(1) a {  
-    color : #0065FC;  
-    font-weight: bold;
-    order: 2;
+  .inscription {
+    order: 2;    
+    margin-top: 1.3em;
   }
-  .menunav li:nth-of-type(2) a {  
-    color : #0065FC;  
-    font-weight: bold;
-    order: 3;
+
+  .inscrire {
+    padding: unset;
   }
-  .menunav li:nth-of-type(3) a {  
-    color : #0065FC;  
-    font-weight: bold;
-    order: 1;
+  
+  .menunav a {
+    padding: unset;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
   }
+
+  .menunav a:hover{
+    border-top: unset;
+    border-bottom: 2px solid #0065FC;
+    color : #0065FC;
+  }
+
   #filtre {
     flex-wrap: wrap;
   }
@@ -698,37 +724,5 @@ flex-wrap: wrap;
 
   .footernav {
     margin-bottom : 0;
-  }
-
-  #navigation {
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-  }
-  
-  .menulogo {
-    order: 1;
-    width: 50%;
-    height: unset;
-  }
-
-  .inscrire {
-    order: 2;
-  }
-
-  .menunav {
-    order: 3;
-  }
-  
-  .menunav a{
-    padding: unset;
-    padding-right: 6em;
-    padding-top: 1em;
-    margin-bottom: 1em;
-  }
-
-  .menunav a:hover{
-    border-top: unset;
-    border-bottom: 2px solid #0065FC;
-    color : #0065FC;
   }
 }
