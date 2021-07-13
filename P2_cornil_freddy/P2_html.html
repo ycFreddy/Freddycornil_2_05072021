@@ -9,37 +9,39 @@
     </head>
     <body>
         <main id="container">
-            <section id="navigation">            
-                <h1 class="menulogo"><img src="images/logo.png" alt="Accueil - Reservia"></h1>
-                <div class="inscription"><a class="inscrire" href="#inscrire">S'inscrire</a></div>
-                <div class="menunav">
-                    <a class="liennav" href="#hebergement">Hébergements</a><a class="liennav" href="#activites">Activités</a>
+            <header>
+                <nav id="navigation">            
+                    <div class="menulogo"><img src="images/logo.png" alt="Accueil - Reservia"></div>
+                    <div class="inscription"><a class="inscrire" href="#inscrire">S'inscrire</a></div>
+                    <div class="menunav">
+                        <a class="liennav" href="#hebergement">Hébergements</a><a class="liennav" href="#activites">Activités</a>
+                    </div>
+                </nav>
+                <div id="titre">
+                    <h1>Trouvez votre hébegement pour des vacances de rêve</h1>
+                    <h2>En plein centre ville ou en pleine nature</h2>
                 </div>
-            </section>
-            <section id="titre">
-                <h1>Trouvez votre hébegement pour des vacances de rêve</h1>
-                <h2>En plein centre ville ou en pleine nature</h2>
-            </section>
-            <section id="formulaire">
-                <form id="form">
-                        <div class="label"><i class="fas fa-map-marker-alt"></i></div>
-                        <input type="search" id="search" placeholder="Marseille, France">
-                        <button id="boutonrechercher"><i class="fas fa-search"></i></button>
-                </form>          
-            </section>
-            <section id="filtre">
-                <div class="titref">Filtres</div>
-                <div class="bfiltre"><i class="ico fas fa-money-bill-wave"></i><p>Economique</p></div>
-                <div class="bfiltre"><i class="ico fas fa-child"></i><p>Familial</p></div>
-                <div class="bfiltre"><i class="ico fas fa-heart"></i><p>Romantique</p></div>
-                <div class="bfiltre"><i class="ico fas fa-dog"></i><p>Animaux autorisés</p></div>
-            </section>
-            <section id="info">
-                <div class="infotip"><i class="info-ico fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
-            </section>
-            <section id="hebergement">                
-                <article class="articlehebergement">                                 
-                    <h1 class="tlabel">Hébergements à Marseille</h1>
+                <div id="formulaire">
+                    <form id="form">
+                            <div class="label"><i class="fas fa-map-marker-alt"></i></div>
+                            <input type="search" id="search" placeholder="Marseille, France">
+                            <button id="boutonrechercher"><i class="fas fa-search"></i></button>
+                    </form>          
+                </div>
+                <div id="filtre">
+                    <div class="titref">Filtres</div>
+                    <div class="bfiltre"><i class="ico fas fa-money-bill-wave"></i><p>Economique</p></div>
+                    <div class="bfiltre"><i class="ico fas fa-child"></i><p>Familial</p></div>
+                    <div class="bfiltre"><i class="ico fas fa-heart"></i><p>Romantique</p></div>
+                    <div class="bfiltre"><i class="ico fas fa-dog"></i><p>Animaux autorisés</p></div>
+                </div>
+                <div id="info">
+                    <div class="infotip"><i class="info-ico fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
+                </div>
+            </header>
+            <div id="hebergement">                
+                <div class="articlehebergement">                                 
+                    <div class="heberglabel">Hébergements à Marseille</div>
                     <a class="image" href="#">
                         <img src="images/hebergements/image_1.jpg" alt="Auberge le Cannebière">
                         <div class="imagel">
@@ -124,8 +126,8 @@
                             </div>
                         </div>
                     </a>
-                    <div class="ap">Afficher plus</div>
-                </article>
+                    <a class="ap" href="#">Afficher plus</a>
+                </div>
                 <aside class="articlehebergement">
                     <div class="pop">
                         <div class="tlabel">Les plus populaires</div>
@@ -136,6 +138,7 @@
                         <div class="imager">
                             <div class="nom">Hôtel Le soleil du matin</div>
                             <div class="prix">Nuit à partir de 128€</div>
+                            <p class="grow"></p>
                             <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -150,6 +153,7 @@
                         <div class="imager">
                             <div class="nom">Au coeur de l'eau Chambre d'hôtes</div>
                             <div class="prix">Nuit à partir de 71€</div>
+                            <p class="grow"></p>
                             <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -164,6 +168,7 @@
                         <div class="imager">
                             <div class="nom">Hôtel Tout bleu et Blanc</div>
                             <div class="prix">Nuit à partir de 68€</div>
+                            <p class="grow"></p>
                             <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -174,62 +179,64 @@
                         </div>
                     </a>
                 </aside>
-            </section>                  
-            <div class="actilabel">Activités à Marseille</div>
-            <section id="activites">  
-                <div class="blocactivites">                
-                    <div class="blocactivitesimagegauche">
-                        <div class="vignette vsize1">
-                            <a href="#" class="vignettelien">
-                                <img src="images/activites/image_1.jpg" alt="Vieux Port">
-                                <div class="vignettelabel">Vieux Port</div>
-                            </a>
+            </div>                              
+            <section id="sectionactivite">
+                <h3 class="actilabel">Activités à Marseille</h3>
+                <div id="activites">  
+                    <div class="blocactivites">                
+                        <div class="blocactivitesimagegauche">
+                            <div class="vignette vsize1">
+                                <a href="#" class="vignettelien">
+                                    <img src="images/activites/image_1.jpg" alt="Vieux Port">
+                                    <div class="vignettelabel">Vieux Port</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="blocactivites">                
-                    <div class="blocactivitesimagedroite">
-                        <div class="vignette vsize2">
-                            <a href="#" class="vignettelien">
-                                <img src="images/activites/image_2.jpg" alt="Fort de Pomègues">
-                                <div class="vignettelabel">Fort de Pomègues</div>
-                            </a>
-                        </div>                        
-                        <div class="vignette vsize3">
-                            <a href="#" class="vignettelien">        
-                                <img src="images/activites/image_3.jpg" alt="Iles du Frioul">
-                                <div class="vignettelabel">Iles du Frioul</div>                        
-                            </a>
+                    <div class="blocactivites">                
+                        <div class="blocactivitesimagedroite">
+                            <div class="vignette vsize2">
+                                <a href="#" class="vignettelien">
+                                    <img src="images/activites/image_2.jpg" alt="Fort de Pomègues">
+                                    <div class="vignettelabel">Fort de Pomègues</div>
+                                </a>
+                            </div>                        
+                            <div class="vignette vsize3">
+                                <a href="#" class="vignettelien">        
+                                    <img src="images/activites/image_3.jpg" alt="Iles du Frioul">
+                                    <div class="vignettelabel">Iles du Frioul</div>                        
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="blocactivites">                
-                    <div class="blocactivitesimagegauche">
-                        <div class="vignette vsize1">
-                            <a href="#" class="vignettelien">
-                                <img src="images/activites/image_4.jpg" alt="Parc National des Calanques">
-                                <div class="vignettelabel">Parc National des Calanques</div>
-                            </a>
+                    <div class="blocactivites">                
+                        <div class="blocactivitesimagegauche">
+                            <div class="vignette vsize1">
+                                <a href="#" class="vignettelien">
+                                    <img src="images/activites/image_4.jpg" alt="Parc National des Calanques">
+                                    <div class="vignettelabel">Parc National des Calanques</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="blocactivites">                
-                    <div class="blocactivitesimagedroite">                    
-                        <div class="vignette vsize4">
-                            <a href="#" class="vignettelien">
-                                <img src="images/activites/image_5.jpg" alt="Notre-Dame-de-la-Garde">
-                                <div class="vignettelabel">Notre-Dame-de-la-Garde</div>
-                            </a>
-                        </div>                        
-                        <div class="vignette vsize5">
-                            <a href="#" class="vignettelien">
-                                <img src="images/activites/image_6.jpg" alt="Parc Longchamp">
-                                <div class="vignettelabel">Parc Longchamp</div>
-                            </a>
+                    <div class="blocactivites">                
+                        <div class="blocactivitesimagedroite">                    
+                            <div class="vignette vsize4">
+                                <a href="#" class="vignettelien">
+                                    <img src="images/activites/image_5.jpg" alt="Notre-Dame-de-la-Garde">
+                                    <div class="vignettelabel">Notre-Dame-de-la-Garde</div>
+                                </a>
+                            </div>                        
+                            <div class="vignette vsize5">
+                                <a href="#" class="vignettelien">
+                                    <img src="images/activites/image_6.jpg" alt="Parc Longchamp">
+                                    <div class="vignettelabel">Parc Longchamp</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>   
+                </div>        
+            </section>  
         </main>
         <footer class="footer">
             <div class="footermenu">
