@@ -81,7 +81,7 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h4 {
@@ -179,13 +179,12 @@ h4 {
   border-radius: 50px;
   justify-content : center;
   align-items: center;
-  font-size: 14px;
   background-color: #DEEBFF;
   color: #0065FC;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
-  padding: 0.6em;
+  padding: 0.8em;
   text-align: center;
 }
 
@@ -205,7 +204,7 @@ h4 {
   display: flex;
   align-items: center;
   padding-right: 15px;
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -634,7 +633,7 @@ aside {
   }
 
   .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
-    padding: 1em;
+    padding: 0.8em;
     text-align: center;
   }
 
