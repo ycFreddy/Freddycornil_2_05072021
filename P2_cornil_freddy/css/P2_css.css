@@ -109,7 +109,7 @@ h4 {
   justify-content: center;
   background-color: #F2F2F2;
   border-radius: 10px 0 0 10px;
-  font-size: 16px;
+  font-size: 15px;
   padding: 0.7em;
 } 
 
@@ -120,7 +120,7 @@ h4 {
   padding: 0.7em;
   font-weight: bold;
   border-color: #F2F2F2;
-  border-style: solid;
+  border-style: solid;  
 }
 
 #boutonrechercher {
@@ -628,6 +628,10 @@ aside {
     align-items: center;
   }
 
+  #search {
+    width: 100%;
+  }
+
   #filtre {
     flex-wrap: wrap;
     margin-left: 10px;
@@ -679,6 +683,7 @@ aside {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    margin-top: 1em;
   }
   
   .imagel {    
@@ -690,6 +695,11 @@ aside {
     padding: 0px;
     margin: 0;
     margin-left: 2%;
+    margin-bottom: 1em;
+  }
+
+  .ap {
+    margin-top: 0;
     margin-bottom: 1em;
   }
 
@@ -722,13 +732,14 @@ aside {
 
   .vignette a {
     width: 100%;
+    border-radius: 50px;
   }
 
   .vsize1 {
     width: inherit;
   }
 
-  .blocactivitesimagegauche {    
+  .blocactivites {    
     width: 100%;
   }
 
