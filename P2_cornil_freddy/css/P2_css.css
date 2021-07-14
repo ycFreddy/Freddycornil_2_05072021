@@ -325,7 +325,7 @@ h2 {
 }
 
 .hebergement__vignetteblockdroite img {  
-  width: 45%;
+  width: 10vw;
   border-radius: 10px 0px 0px 10px;
   object-fit: cover;
 }
@@ -687,6 +687,10 @@ h2 {
     margin: 0;
     margin-left: 2%;
     margin-bottom: 1em;
+  }
+
+  .hebergement__vignetteblockdroite img {  
+    width: 40%;
   }
 
   .hebergement__ap {
