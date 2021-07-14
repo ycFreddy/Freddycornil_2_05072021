@@ -743,6 +743,10 @@ aside {
     width: 100%;
   }
 
+  .blocactivitesimagegauche {
+    width: 100%;
+  }
+
   .vsize1 img, .vsize2 img, .vsize3 img, .vsize4 img, .vsize5 img {  
     height: 130px;
   }
