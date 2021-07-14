@@ -64,7 +64,7 @@ h2 {
   order: 3;
 }
 
-.navigation__inscription--inscrire {
+.navigation__inscription a {
   text-decoration: none;
   color : #0065FC;  
   font-weight: bold;
@@ -594,7 +594,7 @@ h2 {
     margin-right: 1em;
   }
 
-  .navigation__inscription--inscrire {
+  .navigation__inscription a {
     padding: unset;
   }  
 
