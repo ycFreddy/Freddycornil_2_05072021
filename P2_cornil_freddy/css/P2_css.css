@@ -665,11 +665,7 @@ h2 {
     margin-right: 0.8em;
   }  
   
-  .hebergement__descriptionblockgauche {    
-    margin-bottom: 0.2em;
-  }
-
-  .hebergement__descriptionblockdroite {    
+  .hebergement__descriptionblockgauche, .hebergement__descriptionblockdroite {    
     margin-bottom: 0.2em;
   }
 
@@ -705,10 +701,6 @@ h2 {
   .activite__listeactivites {
     flex-direction: column;
     justify-content: center;
-  }
-
-  .activite__colonnesactivites {    
-    width: 100%;
   }
 
   .activite__colonnesactivitesimagegauche {
