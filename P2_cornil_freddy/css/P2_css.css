@@ -310,10 +310,7 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: left;
-}
-
-.hebergement__descriptionnom, .hebergement__descriptionprix, .hebergement__descriptionstar {
-  margin-right: 5px;
+  width: 90%;
 }
 
 .hebergement__vignetteblockgauche img {
@@ -347,6 +344,10 @@ h2 {
   background-color: transparent;
   text-decoration: none;
   color: black;
+}
+
+.hebergement__descriptionnom, .hebergement__descriptionprix, .hebergement__descriptionstar {
+  margin-right: 5px;
 }
 
 .hebergement__descriptionnom {
