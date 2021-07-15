@@ -91,6 +91,10 @@ h2 {
   margin-left: 1em;
 }
 
+.formulaire__hauteur {
+  height: 40px;
+}
+
 .formulaire__label {  
   display: flex;
   align-items: center;
@@ -98,7 +102,8 @@ h2 {
   background-color: #F2F2F2;
   border-radius: 10px 0 0 10px;
   font-size: 15px;
-  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
 } 
 
 .formulaire__search {
@@ -758,13 +763,17 @@ h2 {
   
 .formulaire__boutonrechercher::after {  
   position: absolute;
+  display: flex;
+  align-items: center; 
   content: "Rechercher";
   top: 0px;
   left: 0;
+  height: 40px;
   font-weight: bold;
   margin: 0px;
   border-radius: 0 10px 10px 0;
-  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
   color: white;
   background-color: #0065FC;
   font-size: 13px;
