@@ -161,7 +161,6 @@ h2 {
 }
 
 .filtre__bouton p {
-  justify-content: center;
   margin: 5px;
   font-weight: bold;
   font-size: 14px;
@@ -169,15 +168,12 @@ h2 {
   background-color: transparent;
 }
 
-.filtre__bouton--ico {  
+.filtre__bouton--ico {    
   border-radius: 50px;
-  justify-content : center;
-  align-items: center;
   background-color: #DEEBFF;
   color: #0065FC;
   height: 17px;
-  width: 17px;
-  text-align: center;
+  width: 17px;  
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
