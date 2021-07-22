@@ -175,6 +175,8 @@ h2 {
   align-items: center;
   background-color: #DEEBFF;
   color: #0065FC;
+  height: 15px;
+  width: 15px;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
